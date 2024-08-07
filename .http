@@ -1,9 +1,16 @@
-http://localhost:3000/api/dashboard
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+    "email":"Nugraha44@gmail.com",
+    "password":"x7cqc_VxxyUhy3B"
+}
 
 
 
 ###
 
+GET http://localhost:3000/auth/login
 
 
 
